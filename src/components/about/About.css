@@ -1,0 +1,50 @@
+
+
+
+
+.values, .mission-vision {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 20px 30px;
+}
+
+
+
+/* List in Values section */
+.values ul {
+    list-style: none;
+    margin-left: 40px;
+    color: #444;
+}
+
+.values li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    list-style: none;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about {
+        padding: 20px;
+    }
+
+    .typing-title {
+        font-size: 2rem;
+    }
+
+    .values, .mission-vision {
+        padding: 15px 20px;
+    }
+
+    .values h3, .mission-vision h3 {
+        font-size: 1.5rem;
+    }
+
+    .about p {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,143 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: clamp(2rem, 1vw, 4rem);
+  background-color: transparent;
+  z-index: 1000;
+  overflow: hidden;
+  transition: height 0.3s ease;
+
+
+}
+
+
+footer:hover {
+  height: clamp(200px, 50vh, 400px);
+} 
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding:0;
+}
+
+.footer-text {
+  margin: 0px;
+  text-align: left;
+  font-size: clamp(6px, 2vw, 14px);
+  line-height: 1.5;
+  color: var(--primary-color) !important;
+  padding: clamp(0.5px,1vw,1px);
+}
+
+.expanded-content {
+  opacity: 0;
+  transform: translateY(-10px); 
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  background-color:#fff;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: flex-start;
+  text-align: left;
+  width: 100%; 
+  padding: clamp(6px, 2vw, 0px); 
+  margin-left: 0; 
+  gap: 10px;
+}
+
+
+.expanded-content h3{
+  color: #030f2e;
+}
+
+footer:hover .expanded-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.compact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: clamp(-10px,2vh,-4px);
+}
+
+.compact-content p {
+  font-size: clamp(4px, 4vw, 16px);
+  font-weight: 800;
+  color:white;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: clamp(5px, 1vw, 20px);
+}
+
+.social-icons a {
+  font-size: clamp(8px, 4vw, 24px);
+  color: var(--primary-color);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #61dafb;
+  transform: scale(1.1);
+}
+
+.schedule {
+  text-align: right;
+  font-size: clamp(10px, 2vw, 14px);
+  color: white;
+}
+
+.contact-info {
+  flex: 1; 
+  max-width: 65%;
+}
+
+.comercial-alinace{
+  flex:1;
+  text-align: start;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.comercial-list li img{
+  height: auto;
+  width: clamp(30px,5vw,60px);
+  object-fit: contain;
+}
+  
+  .comercial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap:30px;
+  }
+    
+
+.container-info{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  @media (max-width: 1000px ) {
+    footer {
+      pointer-events: none;
+    }
+  }
+  
