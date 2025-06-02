@@ -1,79 +1,80 @@
 import './Support.css';
-import { FaTools, FaChalkboardTeacher, FaShieldAlt } from 'react-icons/fa';
+import { FaTools, FaHardHat, FaShieldAlt } from 'react-icons/fa';
 import ScrollableSection from '../../ui/ux/scrollableSection/ScrollableSection';
 import TypingTitle from '../../ui/ux/typingTitle/TypingTitle';
 import Section from '../../ui/layouts/Section';
+
 const Support = () => {
     return (
         <Section>
-            <TypingTitle text="Soporte Técnico"/>
+            <TypingTitle text="Servicios de Obra Civil" />
 
-            <ScrollableSection className="section-soporte-empresarial " index={0}>
-                <h2 className='text-center'>Soporte técnico empresarial</h2>
+            <ScrollableSection className="section-obra-civil" index={0}>
+                <h2 className='text-center'>Construcción y Supervisión</h2>
                 <p>
-                    En <strong>IKA</strong>, el soporte técnico TI está centrado en generar valor dentro de tu compañía a través de la detección y resolución de cualquier incidente en software o hardware.
+                    En <strong>IKA</strong>, brindamos soluciones integrales en el desarrollo de proyectos de obra civil, desde la planeación hasta la ejecución y supervisión final.
                 </p>
                 <p>
-                    Nuestra prioridad es buscar soluciones que le permitan ahorrar, mejorar y optimizar los tiempos de operación sin importar el tamaño de la empresa.
+                    Nuestro objetivo es garantizar la calidad, seguridad y cumplimiento de plazos en cada una de las obras que realizamos, ajustándonos a las necesidades específicas de cada cliente.
                 </p>
                 <p>
-                    Con más de 20 años de experiencia en el mercado, en <strong>IKA</strong> nos preocupamos por que tu negocio siga creciendo. Por eso ofrecemos un amplio portafolio de infraestructuras y servicios de tecnologías de información.
+                    Con más de 20 años de experiencia en el sector, en <strong>IKA</strong> somos el aliado ideal para asegurar el éxito de tu proyecto de construcción.
                 </p>
             </ScrollableSection>
 
-            <ScrollableSection className="section-videoconferencia " index={1}>
-                <h2 className='text-center'>Sistemas de Videoconferencia</h2>
+            <ScrollableSection className="section-urbanismo" index={1}>
+                <h2 className='text-center'>Infraestructura y Urbanización</h2>
                 <p>
-                    En la actualidad, los medios y las necesidades de comunicación han cambiado y evolucionado, por lo que la necesidad de estar en constante contacto o realizar reuniones con nuestro personal no siempre es posible lograrlo de manera presencial. Las organizaciones tienen que buscar la manera de seguir con la operativa diaria ya sea presencialmente o remota mediante la tecnología de Internet.
+                    Nos especializamos en proyectos de urbanización, pavimentación, instalación de drenajes pluviales y sanitarios, así como en redes hidráulicas.
                 </p>
                 <p>
-                    En <strong>IKA</strong>, tenemos los mejores productos para que tus reuniones virtuales evolucionen profesionalmente y tu organización afronte los nuevos retos que la comunicación post-Covid-19 plantea.
+                    Implementamos tecnología de vanguardia y las mejores prácticas del sector para garantizar resultados eficientes y sustentables.
                 </p>
             </ScrollableSection>
 
-            <ScrollableSection className="support-features " index={2}>
+            <ScrollableSection className="support-features" index={2}>
                 <div className="feature">
-                    <FaChalkboardTeacher className="feature-icon" />
-                    <h3 className='text-center'>Help Desk</h3>
-                    <p>Proporcionamos asesoría y asistencia de forma eficaz con un apoyo intermedio y seguro.</p>
-                </div>
-
-                <div className="feature">
-                    <FaChalkboardTeacher className="feature-icon" />
-                    <h3 className='text-center'>Coaching TI</h3>
-                    <p>Capacitamos a tu personal para un uso correcto de la tecnología en tu empresa.</p>
+                    <FaHardHat className="feature-icon" />
+                    <h3 className='text-center'>Supervisión de Obra</h3>
+                    <p>Verificamos que la ejecución del proyecto cumpla con los planos, especificaciones y normativas.</p>
                 </div>
 
                 <div className="feature">
                     <FaTools className="feature-icon" />
-                    <h3 className='text-center'>Mantenimiento</h3>
-                    <p>Realizamos mantenimientos preventivos y correctivos.</p>
+                    <h3 className='text-center'>Mantenimiento Correctivo</h3>
+                    <p>Realizamos reparaciones estructurales o estéticas en edificaciones e infraestructura.</p>
+                </div>
+
+                <div className="feature">
+                    <FaTools className="feature-icon" />
+                    <h3 className='text-center'>Mantenimiento Preventivo</h3>
+                    <p>Programamos inspecciones regulares para asegurar la conservación de la obra.</p>
                 </div>
 
                 <div className="feature">
                     <FaShieldAlt className="feature-icon" />
-                    <h3 className='text-center'>Monitoreo</h3>
-                    <p>Monitoreamos tu infraestructura tecnológica, identificando vulnerabilidades y solucionándolas.</p>
+                    <h3 className='text-center'>Seguridad en el Sitio</h3>
+                    <p>Implementamos medidas estrictas de seguridad industrial en cada etapa del proyecto.</p>
                 </div>
             </ScrollableSection>
 
             <ScrollableSection index={3}> 
-                <h3 className='text-center'>Póliza de Soporte y Consultoría</h3>
-                <h4>¿Por qué tener una póliza de soporte?</h4>
+                <h3 className='text-center'>Contratos de Mantenimiento</h3>
+                <h4>¿Por qué contratar un servicio de mantenimiento?</h4>
                 <p>
-                    Tener una Póliza de soporte y mantenimiento con <strong>IKA</strong> es la mejor forma de proteger y extender la vida útil de su infraestructura, ya que gestionamos los tickets personalmente con el fabricante de forma transparente, ágil y rápida.
+                    Contar con un contrato de mantenimiento con <strong>IKA</strong> asegura la preservación de tus instalaciones, reduce el riesgo de fallas y prolonga la vida útil de tu infraestructura.
                 </p>
                 <p>
-                    Tenemos a su disposición diferentes tipos de pólizas, las cuales cuentan con por lo menos dos mantenimientos preventivos al año. Además, incluimos partes y refacciones con su respectiva bitácora de incidentes, de tal forma que mantenemos comunicación clara y una visión concisa de lo que está ocurriendo.
+                    Ofrecemos diferentes tipos de contratos ajustados a tus necesidades, que incluyen revisiones periódicas, informes técnicos y atención inmediata en caso de emergencias.
                 </p>
 
-                <h4>¿Cuáles son los beneficios?</h4>
+                <h4>Beneficios</h4>
                 <ul>
-                    <li>Con los SLA`S de IKA podemos proteger su inversión.</li>
-                    <li>IKA se hace cargo de los trámites de garantías con los fabricantes.</li>
-                    <li>Contamos con un grupo de Ingenieros certificados.</li>
-                    <li>Mantenimientos preventivos programados.</li>
-                    <li>Solución a sus problemas a tiempo.</li>
+                    <li>Reducción de costos por reparaciones mayores.</li>
+                    <li>Atención personalizada y continua.</li>
+                    <li>Equipos certificados y con experiencia en obra civil.</li>
+                    <li>Mejora de la seguridad estructural.</li>
+                    <li>Documentación técnica actualizada.</li>
                 </ul>
             </ScrollableSection>
 
@@ -82,75 +83,40 @@ const Support = () => {
                     <thead>
                         <tr> 
                             <th>SERVICIO</th>
-                            <th>PÓLIZA PLATINUM</th>
-                            <th>PÓLIZA GOLD</th>
+                            <th>PLAN PLATINUM</th>
+                            <th>PLAN GOLD</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Duración</td>
-                            <td>Mínimo 1 año</td>
-                            <td>Mínimo 1 año</td>
+                            <td>Duración del contrato</td>
+                            <td>1 año mínimo</td>
+                            <td>1 año mínimo</td>
                         </tr>
                         <tr>
-                            <td>Cobertura</td>
-                            <td>Lun - Dom, 24 Hrs</td>
-                            <td>Lun - Vie, 9:00 - 18:00 Hrs; Sáb, 9:00 - 13:00 Hrs</td>
+                            <td>Disponibilidad</td>
+                            <td>24/7</td>
+                            <td>Lun - Vie (8:00 a 18:00)</td>
                         </tr>
                         <tr>
-                            <td>Tiempo de respuesta promedio en sitio</td>
-                            <td>2 Horas</td>
-                            <td>4 Horas</td>
+                            <td>Tiempo de respuesta</td>
+                            <td>Hasta 2 horas</td>
+                            <td>Hasta 4 horas</td>
                         </tr>
                         <tr>
-                            <td>Mantenimientos preventivos en sitio</td>
-                            <td>2 por año</td>
-                            <td>2 por año</td>
+                            <td>Inspecciones programadas</td>
+                            <td>Trimestrales</td>
+                            <td>Semestrales</td>
                         </tr>
                         <tr>
-                            <td>Mantenimiento correctivos en sitio</td>
-                            <td>Todos los necesarios 7x24</td>
-                            <td>Todos los necesarios en días y horarios hábiles</td>
+                            <td>Reportes técnicos</td>
+                            <td>Detallados y mensuales</td>
+                            <td>Resumen trimestral</td>
                         </tr>
                         <tr>
-                            <td>Soporte telefónico y/o conexión remota</td>
-                            <td>Prioritario 7x24</td>
-                            <td>En días y horarios hábiles</td>
-                        </tr>
-                        <tr>
-                            <td>Reemplazo de partes (mano de obra)</td>
-                            <td>Incluidas</td>
-                            <td>Incluidas</td>
-                        </tr>
-                        <tr>
-                            <td>Equipo de reemplazo</td>
-                            <td>No incluido / Opcional</td>
-                            <td>No incluido / Opcional</td>
-                        </tr>
-                        <tr>
-                            <td>Niveles de servicio (SLAs)</td>
-                            <td>Mejor esfuerzo 7x24</td>
-                            <td>Mejor esfuerzo en días y horarios hábiles</td>
-                        </tr>
-                        <tr>
-                            <td>Ingeniero en sitio en atención a falla</td>
-                            <td>Incluido</td>
-                            <td>Incluido en días y horarios hábiles</td>
-                        </tr>
-                        <tr>
-                            <td>Reporte de actividades</td>
-                            <td>Bitácora en sistema de tickets</td>
-                            <td>Bitácora en sistema de tickets</td>
-                        </tr>
-                        <tr>
-                            <td>Atención de garantías con el fabricante</td>
-                            <td>Incluido si el equipo cuenta con garantía</td>
-                            <td>Incluido si el equipo cuenta con garantía</td>
-                        </tr>
-                        <tr>
-                            <td>Instalación y configuración HW</td>
-                            <td>Incluido</td>
-                            <td>Incluido</td>
+                            <td>Reparaciones incluidas</td>
+                            <td>Sí</td>
+                            <td>Parciales</td>
                         </tr>
                     </tbody>
                 </table>
@@ -159,68 +125,42 @@ const Support = () => {
             <ScrollableSection className="section-respaldos" index={5}>
                 <div className="section-content">
                     <div className="section-header">
-                        <h3 className="title-respaldos text-center">Respaldos</h3>
+                        <h3 className="title-respaldos text-center">Levantamiento y Documentación</h3>
                     </div>
                     <div className="row">
                         <div className="column-left">
                             <p>
-                                En <strong>IKA</strong>, nos preocupamos por que tu información esté segura y a tu alcance. Es por eso que contamos con un servicio de respaldo de información.
+                                Realizamos levantamientos topográficos y estructurales precisos para respaldar cada fase del proyecto.
                             </p>
                             <p>
-                                Contar con un sistema de respaldo de información te puede proteger ante un posible ataque o algún tipo de fallo en tus sistemas de información.
+                                Garantizamos una trazabilidad completa y actualizada, necesaria para auditorías y control de calidad.
                             </p>
                         </div>
                         <div className="column-right">
-                            <img src="https://www.ika.mx/wp-content/uploads/2016/11/acronis-570x380.jpg" alt="Acronis" className="image-responsive" />
+                            <img src="https://www.ika.mx/wp-content/uploads/2016/11/acronis-570x380.jpg" alt="Levantamiento" className="image-responsive" />
                         </div>
                     </div>
-                    <ScrollableSection className="row section-animation" index={6}>
-                        <div className="column-full">
-                            <h3 className="accordion-title text-center">Beneficios de un sistema de respaldos</h3>
-                            <div className="benefits-list">
-                                <div className="benefit-item">
-                                    <h4 className="benefit-header">Seguridad de los archivos</h4>
-                                    <p>No solo están salvaguardados en todo momento, sino que pueden enviarse de manera segura a los sistemas donde se les requiera.</p>
-                                </div>
-                                <div className="benefit-item">
-                                    <h4 className="benefit-header">Copias de seguridad diarias</h4>
-                                    <p>Asegúrate de que todos tus archivos se guardan diariamente en respaldo. La mejor opción para prevenir pérdida de datos.</p>
-                                </div>
-                                <div className="benefit-item">
-                                    <h4 className="benefit-header">Recuperación en caso de desastre</h4>
-                                    <p>En caso de un desastre informático, recupera rápidamente tu información para seguir operando sin contratiempos.</p>
-                                </div>
-                            </div>
+                </div>
+            </ScrollableSection>
+
+            <ScrollableSection className="section-recuperacion" index={6}>
+                <div className="section-content">
+                    <div className="section-header">
+                        <h3 className="title-recuperacion text-center">Gestión de Proyectos</h3>
+                    </div>
+                    <div className="row">
+                        <div className="column-left">
+                            <img src="https://www.ika.mx/wp-content/uploads/2016/11/backup-570x380.png" alt="Gestión" className="image-responsive" />
                         </div>
-                    </ScrollableSection>
-                    <ScrollableSection className="section-recuperacion" index={7}>
-        <div className="section-content">
-            <div className="section-header">
-                <h3 className="title-recuperacion text-center">Recuperación de Información</h3>
-            </div>
-            <div className="row">
-                <div className="column-left">
-                    <img src="https://www.ika.mx/wp-content/uploads/2016/11/backup-570x380.png" alt="Backup" className="image-responsive" />
-                </div>
-                <div className="column-right">
-                    <p>
-                        Somos un grupo de profesionales que realmente se preocupan por la información de sus clientes. Una empresa en la que creemos que la ética y la honestidad son pilares indispensables para ofrecer un trabajo de calidad y responsabilidad.
-                    </p>
-                    <p>
-                        Nuestros servicios de recuperación abarcan diversos medios de almacenamiento, como memorias SD, USB, discos duros externos e internos, NVMe, así como RAID y NAS en servidores. También resolvemos problemas causados por ataques de virus, eliminación accidental o intencional de información, errores en tablas de partición, e incluso daños físicos.
-                    </p>
-                    <p>
-                        Contamos con certificaciones internacionales, como:
-                        <ul>
-                            <li>CDRP – Certified Data Recovery Professional</li>
-                            <li>Diplomados de Seguridad Informática y Análisis de Malware</li>
-                            <li>Líneas de Especialización en Cómputo Forense</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </ScrollableSection>
+                        <div className="column-right">
+                            <p>
+                                Nuestro equipo de ingenieros civiles, arquitectos y supervisores gestiona cada etapa del proyecto para asegurar eficiencia y cumplimiento normativo.
+                            </p>
+                            <p>
+                                La ética y el compromiso con la calidad son los pilares de nuestro servicio. Supervisamos cada detalle para garantizar resultados duraderos y de alto nivel técnico.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </ScrollableSection>
         </Section>

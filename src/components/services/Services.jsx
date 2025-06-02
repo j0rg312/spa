@@ -1,50 +1,50 @@
 import './Services.css';
 import ScrollableSection from '../ui/ux/scrollableSection/ScrollableSection';
-import { FaTools, FaNetworkWired, FaPhone, FaDesktop, FaWifi, FaShieldAlt } from 'react-icons/fa';
+import { FaHammer, FaBuilding, FaDraftingCompass, FaHardHat, FaTruckMoving, FaTools } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 import TypingTitle from '../ui/ux/typingTitle/TypingTitle';
 import Section from '../ui/layouts/Section';
 import { Helmet } from 'react-helmet-async';
 
 const Services = () => {
-  const services = [
-    {
-      title: 'Soporte Técnico',
-      description: 'Soluciones rápidas y efectivas para tus problemas técnicos.',
-      icon: <FaTools />, 
-      path: '/services/support'
-    },
-    {
-      title: 'Redes',
-      description: 'Diseño e instalación de redes para garantizar conectividad.',
-      icon: <FaNetworkWired />, 
-      path: '/services/networks'
-    },
-    {
-      title: 'Telefonía',
-      description: 'Implementamos sistemas de telefonía modernos y efectivos.',
-      icon: <FaPhone />, 
-      path: '/services/telefonia'
-    },
-    {
-      title: 'Equipos y Servicios',
-      description: 'Venta y renta de equipos de cómputo y soluciones tecnológicas.',
-      icon: <FaDesktop />, 
-      path: '/services/equipment'
-    },
-    {
-      title: 'Internet',
-      description: 'Ofrecemos servicios de internet confiables y de alta velocidad.',
-      icon: <FaWifi />,
-      path: '/services/digital'
-    },
-    {
-      title: 'Seguridad',
-      description: 'Sistemas avanzados para proteger tu infraestructura tecnológica.',
-      icon: <FaShieldAlt />, 
-      path:'/services/security'
-    },
-  ];
+const services = [
+  {
+    title: 'Construcción',
+    description: 'Construcción de infraestructuras resistentes y de alta calidad.',
+    icon: <FaHammer />,
+    path: '/services/support'
+  },
+  {
+    title: 'Diseño Arquitectónico',
+    description: 'Desarrollo de viviendas modernas, seguras y funcionales.',
+    icon: <FaBuilding />,
+    path: '/services/networks'
+  },
+  {
+    title: 'Protección y Seguridad',
+    description: 'Planes arquitectónicos personalizados para cada proyecto.',
+    icon: <FaDraftingCompass />,
+    path: '/services/telefonia'
+  },
+  {
+    title: 'Ingeniería Estructural',
+    description: 'Control y seguimiento profesional durante todo el proceso constructivo.',
+    icon: <FaHardHat />,
+    path: '/services/equipment'
+  },
+  {
+    title: 'Gestión de Obras',
+    description: 'Preparación del terreno para asegurar una base sólida y estable.',
+    icon: <FaTruckMoving />,
+    path: '/services/digital'
+  },
+  {
+    title: 'Equipos y Servicios',
+    description: 'Servicios de mantenimiento para instalaciones industriales.',
+    icon: <FaTools />,
+    path: '/services/security'
+  },
+];
 
   return (
     <Section>

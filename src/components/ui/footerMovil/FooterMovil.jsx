@@ -13,12 +13,12 @@ const FooterMovil = () => {
     return (
         <div className="footer-movil-content">
           <div className="essencial-information">
-              <p className="footer-text">&copy; {currentYear} IKA - Derechos Reservados.</p>
+              <p className="footer-text">&copy; {currentYear} LYR - Derechos Reservados.</p>
           <div className="social-icons">
-            <a href="https://www.facebook.com/InternetKnowledgeApplied" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <FaFacebook />
             </a>
-            <a href="https://www.instagram.com/InternetKnowledgeApplied" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
           </div>

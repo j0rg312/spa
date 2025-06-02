@@ -7,41 +7,42 @@ import { Helmet } from 'react-helmet-async';
 const About = () => {
     return (
         <Section>
-           <Helmet>
-                <title>IKA -  Nosotros</title>
-                <meta name="description" content="IKA es una empresa mexicana especializada en consultoría y soporte de TI." />
+            <Helmet>
+                <title>LYR Constructora - Nosotros</title>
+                <meta name="description" content="LYR Constructora es una empresa mexicana especializada en la construcción de viviendas en serie." />
             </Helmet>
-            <TypingTitle text="Quienes Somos" />
+
+            <TypingTitle text="Quiénes Somos" />
+
             <ScrollableSection index={0}>
-            <p>
-               <strong>IKA</strong>  es una empresa mexicana que nace en 2001, con la idea de prestar servicios de consultoría y soporte a las empresas de la ciudad de Chihuahua. Está conformada por un grupo de profesionales con más de 20 años de experiencia en distintas áreas de la Tecnología de la Información, con una visión enfocada a apoyar y fomentar el uso de tecnologías libres.
-            </p>
-            <p>
-                Ofrecemos servicios informáticos, consultorías, soporte técnico, desarrollo de proyectos especiales, venta y renta de equipo de cómputo. Nuestro objetivo es ayudar a las empresas a alcanzar sus metas tecnológicas de manera eficiente y sostenible.
-            </p>
-            <p>
-                Contamos con ingenieros capacitados en distintas ramas de la tecnología, lo que nos permite contar con un portafolio de servicios amplio y bases sólidas para satisfacer los estándares de calidad exigidos por nuestros clientes. Participamos activamente en sus proyectos, llevándolos a buen término y cumpliendo cabalmente con sus necesidades.
-            </p>
+                <p>
+                    <strong>LYR Constructora</strong> es una empresa mexicana fundada con el propósito de brindar soluciones habitacionales de calidad a las familias del país. Nos especializamos en la <strong>construcción de viviendas en serie</strong>, combinando funcionalidad, diseño y accesibilidad.
+                </p>
+                <p>
+                    Nuestro equipo está conformado por profesionales con amplia experiencia en el sector de la construcción, comprometidos con la excelencia en cada proyecto. A través de procesos optimizados, garantizamos desarrollos eficientes, seguros y duraderos.
+                </p>
+                <p>
+                    LYR Constructora participa activamente en cada etapa del proyecto: desde la planeación hasta la entrega. Nuestro objetivo es construir comunidades sólidas, cómodas y adaptadas a las necesidades de quienes las habitan.
+                </p>
             </ScrollableSection>
-            
-            
+
             <ScrollableSection className="values" index={1}>
                 <h3 className='text-center'>Nuestros Valores</h3>
                 <ul>
-                    <li><strong>💡 Innovación:</strong> Buscamos constantemente nuevas formas de mejorar nuestros servicios.</li>
-                    <li><strong>🤝 Compromiso:</strong> Trabajamos codo a codo con nuestros clientes para garantizar el éxito de sus proyectos.</li>
-                    <li><strong>⭐ Calidad:</strong> Nos esforzamos por ofrecer soluciones que superen las expectativas.</li>
+                    <li><strong>🏗️ Compromiso:</strong> Nos esforzamos por cumplir cada proyecto en tiempo y forma, con calidad garantizada.</li>
+                    <li><strong>📐 Profesionalismo:</strong> Contamos con personal capacitado y procesos bien establecidos.</li>
+                    <li><strong>🏠 Responsabilidad social:</strong> Buscamos crear espacios dignos, seguros y sostenibles para las familias mexicanas.</li>
                 </ul>
             </ScrollableSection>
 
             <ScrollableSection className="mission-vision" index={2}>
                 <h3 className='text-center'>Misión</h3>
                 <p>
-                    Proveer soluciones tecnológicas personalizadas que impulsen el crecimiento y la eficiencia de nuestros clientes.
+                    Diseñar y construir viviendas accesibles, funcionales y de calidad, promoviendo el bienestar y el desarrollo de nuestras comunidades.
                 </p>
                 <h3>Visión</h3>
                 <p>
-                    Convertirnos en el socio estratégico líder en innovación tecnológica para empresas de todos los tamaños.
+                    Ser la constructora líder en México en el desarrollo de fraccionamientos habitacionales en serie, reconocida por su innovación, eficiencia y compromiso social.
                 </p>
             </ScrollableSection>
         </Section>

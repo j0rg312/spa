@@ -14,11 +14,11 @@ const navLinks = [
 ];
 
 const services = [
-  { name: "Redes", path: "/services/networks" },
-  { name: "Soporte Técnico", path: "/services/support" },
-  { name: "Seguridad", path: "/services/security" },
-  { name: "Transformación Digital", path: "/services/digital" },
-  { name: "Telefonía", path: "/services/telefonia" },
+  { name: "'Construcción", path: "/services/networks" },
+  { name: "Diseño Arquitectónico", path: "/services/support" },
+  { name: "Protección y Seguridad", path: "/services/security" },
+  { name: "Ingenieria Estructural", path: "/services/digital" },
+  { name: "Gestión de Obras'", path: "/services/telefonia" },
   { name: "Equipos y Servicios", path: "/services/equipment" },
 ];
 
