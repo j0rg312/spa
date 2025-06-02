@@ -38,8 +38,8 @@ const Contact = () => {
   return (
     <Section>
       <Helmet>
-        <title>IKA - Contacto</title>
-        <meta name="description" content="IKA es una empresa mexicana especializada en consultoría y soporte de TI." />
+        <title>lyr - Contacto</title>
+        <meta name="description" content="lyr es una empresa mexicana especializada en consultoría y soporte de TI." />
       </Helmet>
 
       <TypingTitle text="Contáctanos" />
@@ -69,7 +69,7 @@ const Contact = () => {
             <div className="info-box">
               <i className="flaticon-mail"></i>
               <h3 className='text-center'>Correos</h3>
-              <p><a href="mailto:contacto@ika.mx">contacto@ika.mx</a></p>
+              <p><a href="mailto:contacto@lyr.mx">contacto@lyr.mx</a></p>
             </div>
           </div>
 
